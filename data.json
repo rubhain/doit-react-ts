@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    {
+      "title": "Title Do",
+      "description": "Description",
+      "subtasks": [
+        {
+          "description": "A subtask",
+          "status": false
+        }
+      ],
+      "status": "do"
+    },
+    {
+      "title": "Title",
+      "description": "Description",
+      "subtasks": [
+        {
+          "description": "A subtask",
+          "status": false
+        }
+      ],
+      "status": "doing"
+    },
+    {
+      "title": "Title",
+      "description": "Description",
+      "subtasks": [
+        {
+          "description": "A subtask",
+          "status": false
+        }
+      ],
+      "status": "done"
+    }
+  ]
+}
