@@ -1,37 +1,36 @@
 {
-  "tasks": [
+  "boards": [
     {
-      "title": "Title Do",
-      "description": "Description",
-      "subtasks": [
+      "id": "An24378YABFYVasu92",
+      "title": "Board 1",
+      "tasks": [
         {
-          "description": "A subtask",
-          "status": false
-        }
-      ],
-      "status": "do"
-    },
-    {
-      "title": "Title",
-      "description": "Description",
-      "subtasks": [
+          "id": "asdf1823huas",
+          "title": "Title Do",
+          "description": "Description",
+          "subtasks": [
+            {
+              "id": "a12asdf23",
+              "description": "A subtask",
+              "status": false
+            }
+          ],
+          "status": "do"
+        },
         {
-          "description": "A subtask",
-          "status": false
+          "id": "ASDV312394asdfm",
+          "title": "Title",
+          "description": "Description",
+          "subtasks": [
+            {
+              "id": "MAJDS8ahsndf891",
+              "description": "A subtask",
+              "status": false
+            }
+          ],
+          "status": "doing"
         }
-      ],
-      "status": "doing"
-    },
-    {
-      "title": "Title",
-      "description": "Description",
-      "subtasks": [
-        {
-          "description": "A subtask",
-          "status": false
-        }
-      ],
-      "status": "done"
+      ]
     }
   ]
 }
