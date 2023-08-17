@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 
 function SideNav() {
-    const [sideBar, setSideBar] = useState(false);
+    const [sideBar, setSideBar] = useState(true);
 
     const showSideBar = () => {
         setSideBar(!sideBar)
     }
+
     return (
         <div className='navbar'>
             <a onClick={showSideBar}>DOIT</a>
@@ -14,8 +15,8 @@ function SideNav() {
                     <li className='nav-text'>
                         <a >Test Link</a>
                     </li>
-                    <li className='nav-text'>
-                        <a >Add New Board</a>
+                    <li className='nav-text' >
+                        <a style={{ borderStyle: 'solid' }}>Add New Board</a>
                     </li>
                 </ul>
             </nav>

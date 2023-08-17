@@ -1,6 +1,6 @@
 import React from "react"
 import './App.css'
-import SideNav from './components/SideBar/SideNav'
+import SideNav from './components/SideNav/SideNav'
 
 function App() {
 
