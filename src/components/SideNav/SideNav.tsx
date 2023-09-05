@@ -12,11 +12,8 @@ function SideNav() {
             <a onClick={showSideBar}>DOIT</a>
             <nav className={sideBar ? "nav-menu active" : "nav-menu"}>
                 <ul className='nav-menu-items' >
-                    <li className='nav-text'>
-                        <a >Test Link</a>
-                    </li>
                     <li className='nav-text' >
-                        <a style={{ borderStyle: 'solid' }}>Add New Board</a>
+                        <a style={{ borderStyle: 'solid' }} >Add New Board</a>
                     </li>
                 </ul>
             </nav>
