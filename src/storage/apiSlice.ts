@@ -7,7 +7,10 @@ export const apiSlice = createApi({
     getBoards: builder.query({
       query: () => '/boards',
     }),
+    getSelectedBoard: builder.query({
+      query: id => `/boards/${id}`,
+    }),
   }),
 });
 
-export const { useGetBoardsQuery } = apiSlice;
+export const { useGetBoardsQuery, useGetSelectedBoardQuery } = apiSlice;
