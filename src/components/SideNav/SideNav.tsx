@@ -21,9 +21,11 @@ function SideNav() {
             <a onClick={showSideBar}>DOIT</a>
             <nav className={sideBar ? "nav-menu active" : "nav-menu"}>
                 <ul className='nav-menu-items' >
-                    {data.map((item: IBoard) => <li key={item.id} className='nav-text'>{item.title}</li>)}
+                    {data.map((item: IBoard) => <li key={item.id} className='nav-text'>
+                        <a href={`${item.id}`}>{item.title}</a>
+                    </li>)}
                     <li className='nav-text' >
-                        <a style={{ borderStyle: 'solid' }} >Add New Board</a>
+                        <a className='add-boards'>Add New Board</a>
                     </li>
                 </ul>
             </nav>
