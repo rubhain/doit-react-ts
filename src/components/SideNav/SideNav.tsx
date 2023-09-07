@@ -7,8 +7,6 @@ function SideNav() {
 
     const { data, isLoading } = useGetBoardsQuery('');
 
-    console.log(data, isLoading);
-
 
     const showSideBar = () => {
         setSideBar(!sideBar)
