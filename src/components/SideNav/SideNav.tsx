@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useGetBoardsQuery } from '../../storage/apiSlice';
+import { useGetBoardsQuery } from '../../storage/reducers/apiSlice';
 import { IBoard } from '../../storage/types';
 
 function SideNav() {

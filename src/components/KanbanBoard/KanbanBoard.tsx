@@ -1,5 +1,5 @@
 import React from 'react'
-import { useGetSelectedBoardQuery } from '../../storage/apiSlice'
+import { useGetSelectedBoardQuery } from '../../storage/reducers/apiSlice'
 
 
 function KanbanBoard(props: any) {
@@ -9,7 +9,7 @@ function KanbanBoard(props: any) {
         return <div>Loading...</div>
     }
     return (
-        <div>{data.title}</div>
+        <div className='kanban-container'>{data.title}</div>
     )
 }
 

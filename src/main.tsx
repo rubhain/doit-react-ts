@@ -5,7 +5,7 @@ import './index.css'
 import { Provider } from 'react-redux'
 import store from './storage/store.ts'
 import { ApiProvider } from '@reduxjs/toolkit/dist/query/react'
-import { apiSlice } from './storage/apiSlice.ts'
+import { apiSlice } from './storage/reducers/apiSlice.ts'
 import { BrowserRouter } from 'react-router-dom'
 
 
