@@ -30,7 +30,8 @@
           ],
           "status": "doing"
         }
-      ]
+      ],
+      "status": ["do", "doing", "done"]
     }
   ]
 }
